@@ -1,0 +1,6 @@
+framework module Pods_SiftuiMVVM {
+  umbrella header "Pods-SiftuiMVVM-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1161347128ACFB8600331AA7 /* CreateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161347028ACFB8600331AA7 /* CreateScreen.swift */; };
 		11D23DB628AB670B008E8649 /* SiftuiMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D23DB528AB670B008E8649 /* SiftuiMVVMApp.swift */; };
 		11D23DB828AB670B008E8649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D23DB728AB670B008E8649 /* ContentView.swift */; };
 		11D23DBA28AB670D008E8649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D23DB928AB670D008E8649 /* Assets.xcassets */; };
 		11D23DBD28AB670D008E8649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D23DBC28AB670D008E8649 /* Preview Assets.xcassets */; };
+		11D23DC728AB6786008E8649 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D23DC628AB6786008E8649 /* HomeScreen.swift */; };
+		11D23DCE28AB67C0008E8649 /* EditScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D23DCD28AB67C0008E8649 /* EditScreen.swift */; };
+		11D23DD028AB67E1008E8649 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D23DCF28AB67E1008E8649 /* HomeViewModel.swift */; };
+		11D23DD228AB67EE008E8649 /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D23DD128AB67EE008E8649 /* CreateViewModel.swift */; };
+		11D23DD428AB67FF008E8649 /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D23DD328AB67FF008E8649 /* EditViewModel.swift */; };
+		11D23DD628AB681B008E8649 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D23DD528AB681B008E8649 /* Post.swift */; };
+		11D23DD828AB6828008E8649 /* AFHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D23DD728AB6828008E8649 /* AFHttp.swift */; };
+		11D23DDB28ACB883008E8649 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D23DDA28ACB883008E8649 /* PostCell.swift */; };
+		8C80F9E78A891304DC72EFFC /* Pods_SiftuiMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1DF1DD360CF2A285FB13AF /* Pods_SiftuiMVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1161347028ACFB8600331AA7 /* CreateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreen.swift; sourceTree = "<group>"; };
 		11D23DB228AB670B008E8649 /* SiftuiMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiftuiMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D23DB528AB670B008E8649 /* SiftuiMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiftuiMVVMApp.swift; sourceTree = "<group>"; };
 		11D23DB728AB670B008E8649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11D23DB928AB670D008E8649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11D23DBC28AB670D008E8649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11D23DC628AB6786008E8649 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		11D23DCD28AB67C0008E8649 /* EditScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScreen.swift; sourceTree = "<group>"; };
+		11D23DCF28AB67E1008E8649 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		11D23DD128AB67EE008E8649 /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
+		11D23DD328AB67FF008E8649 /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
+		11D23DD528AB681B008E8649 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		11D23DD728AB6828008E8649 /* AFHttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFHttp.swift; sourceTree = "<group>"; };
+		11D23DDA28ACB883008E8649 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		88ADB3F7046EE5BBE446326D /* Pods-SiftuiMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiftuiMVVM.release.xcconfig"; path = "Target Support Files/Pods-SiftuiMVVM/Pods-SiftuiMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		8F1DF1DD360CF2A285FB13AF /* Pods_SiftuiMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiftuiMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F0B0E0B2BDC6F3DED99F02 /* Pods-SiftuiMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiftuiMVVM.debug.xcconfig"; path = "Target Support Files/Pods-SiftuiMVVM/Pods-SiftuiMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +48,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C80F9E78A891304DC72EFFC /* Pods_SiftuiMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D86AE7CC7912E19A56E51ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0B0E0B2BDC6F3DED99F02 /* Pods-SiftuiMVVM.debug.xcconfig */,
+				88ADB3F7046EE5BBE446326D /* Pods-SiftuiMVVM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		11D23DA928AB670B008E8649 = {
 			isa = PBXGroup;
 			children = (
 				11D23DB428AB670B008E8649 /* SiftuiMVVM */,
 				11D23DB328AB670B008E8649 /* Products */,
+				0D86AE7CC7912E19A56E51ED /* Pods */,
+				1D80648FBE2BCC01CDFE61F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +85,10 @@
 		11D23DB428AB670B008E8649 /* SiftuiMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				11D23DD928ACB878008E8649 /* cell */,
+				11D23DC528AB676B008E8649 /* screens */,
+				11D23DC428AB675E008E8649 /* network */,
+				11D23DC328AB674D008E8649 /* model */,
 				11D23DB528AB670B008E8649 /* SiftuiMVVMApp.swift */,
 				11D23DB728AB670B008E8649 /* ContentView.swift */,
 				11D23DB928AB670D008E8649 /* Assets.xcassets */,
@@ -67,6 +105,75 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		11D23DC328AB674D008E8649 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				11D23DD528AB681B008E8649 /* Post.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		11D23DC428AB675E008E8649 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				11D23DD728AB6828008E8649 /* AFHttp.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		11D23DC528AB676B008E8649 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				11D23DCA28AB679C008E8649 /* home */,
+				11D23DC928AB6795008E8649 /* create */,
+				11D23DC828AB678B008E8649 /* edit */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		11D23DC828AB678B008E8649 /* edit */ = {
+			isa = PBXGroup;
+			children = (
+				11D23DCD28AB67C0008E8649 /* EditScreen.swift */,
+				11D23DD328AB67FF008E8649 /* EditViewModel.swift */,
+			);
+			path = edit;
+			sourceTree = "<group>";
+		};
+		11D23DC928AB6795008E8649 /* create */ = {
+			isa = PBXGroup;
+			children = (
+				11D23DD128AB67EE008E8649 /* CreateViewModel.swift */,
+				1161347028ACFB8600331AA7 /* CreateScreen.swift */,
+			);
+			path = create;
+			sourceTree = "<group>";
+		};
+		11D23DCA28AB679C008E8649 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				11D23DC628AB6786008E8649 /* HomeScreen.swift */,
+				11D23DCF28AB67E1008E8649 /* HomeViewModel.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		11D23DD928ACB878008E8649 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				11D23DDA28ACB883008E8649 /* PostCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		1D80648FBE2BCC01CDFE61F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F1DF1DD360CF2A285FB13AF /* Pods_SiftuiMVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11D23DC028AB670D008E8649 /* Build configuration list for PBXNativeTarget "SiftuiMVVM" */;
 			buildPhases = (
+				0CD25EA7C3016493689F4D2A /* [CP] Check Pods Manifest.lock */,
 				11D23DAE28AB670B008E8649 /* Sources */,
 				11D23DAF28AB670B008E8649 /* Frameworks */,
 				11D23DB028AB670B008E8649 /* Resources */,
+				E7453484EA71284903669641 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +241,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CD25EA7C3016493689F4D2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiftuiMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7453484EA71284903669641 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SiftuiMVVM/Pods-SiftuiMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SiftuiMVVM/Pods-SiftuiMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SiftuiMVVM/Pods-SiftuiMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11D23DAE28AB670B008E8649 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11D23DD828AB6828008E8649 /* AFHttp.swift in Sources */,
+				11D23DD428AB67FF008E8649 /* EditViewModel.swift in Sources */,
+				11D23DD228AB67EE008E8649 /* CreateViewModel.swift in Sources */,
+				1161347128ACFB8600331AA7 /* CreateScreen.swift in Sources */,
 				11D23DB828AB670B008E8649 /* ContentView.swift in Sources */,
+				11D23DD028AB67E1008E8649 /* HomeViewModel.swift in Sources */,
 				11D23DB628AB670B008E8649 /* SiftuiMVVMApp.swift in Sources */,
+				11D23DD628AB681B008E8649 /* Post.swift in Sources */,
+				11D23DDB28ACB883008E8649 /* PostCell.swift in Sources */,
+				11D23DCE28AB67C0008E8649 /* EditScreen.swift in Sources */,
+				11D23DC728AB6786008E8649 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +421,7 @@
 		};
 		11D23DC128AB670D008E8649 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F0B0E0B2BDC6F3DED99F02 /* Pods-SiftuiMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +451,7 @@
 		};
 		11D23DC228AB670D008E8649 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88ADB3F7046EE5BBE446326D /* Pods-SiftuiMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

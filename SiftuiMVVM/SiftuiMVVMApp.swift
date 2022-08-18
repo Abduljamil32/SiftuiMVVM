@@ -1,9 +1,7 @@
 //
 //  SiftuiMVVMApp.swift
 //  SiftuiMVVM
-//
-//  Created by Avaz Mukhitdinov on 16/08/22.
-//
+
 
 import SwiftUI
 
@@ -11,7 +9,7 @@ import SwiftUI
 struct SiftuiMVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreen()
         }
     }
 }
