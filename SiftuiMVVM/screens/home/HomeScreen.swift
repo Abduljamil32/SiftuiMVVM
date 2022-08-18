@@ -26,10 +26,11 @@ struct HomeScreen: View {
 /* list starts*/List{
             ForEach(viewmodel.posts, id:\.self){post in
                 PostCell(post: post).onLongPressGesture{
+                    viewmodel.post = post
                     showEdit.toggle()
-                }.sheet(isPresented: $showEdit){
-                    EditScreen()
-                }
+                }.sheet(isPresented: $showEdit, content: {
+                    EditScreen(post: viewmodel.post)
+                })
                 
             }.onDelete(perform: delete)
             
